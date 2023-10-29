@@ -14,7 +14,8 @@ const InputFieldContainer= styled.div`
     border: 1px solid #737B86;
     border-radius: 8px;
     background-color: white;
-    margin: 10px 0;
+    margin:0;
+    padding: 0px;
 `;
 const InputField = styled.input`
     width: 100%;
@@ -25,7 +26,10 @@ const InputField = styled.input`
     font-family: Poppins;
     font-weight: 400;
     line-height: 19.80px;
-    word-wrap: break-word 
+    word-wrap: break-word;
+    padding: 17px 5px;
+    border-radius: 8px;
+
 `;
 const BoldLabel = styled.label`
   font-weight: 600;
