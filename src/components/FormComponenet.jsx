@@ -46,8 +46,14 @@ const TermsContainer= styled.div`
     align-items: flex-end;
     justify-content: center;
 `
+const RegisterContainer= styled.div`
+    margin: 15px;
+`
 
-
+const RegisterHereLink = styled.a`
+  color: #f78719;
+  text-decoration: none;
+`;
 function FormComponenet(props) {
     const [showPassword, setShowPassword] = useState(false)
     const togglePasswordVisibility = () => setShowPassword(!showPassword);
@@ -85,7 +91,12 @@ function FormComponenet(props) {
                     </TermsAndConditionsLink>
                     </TermsContainer>
                 </PassContainer>
+                
                 <Button/>
+                <RegisterContainer>
+                  Don’t have an account?{" "}
+                  <RegisterHereLink href="#">Register Here</RegisterHereLink>
+                </RegisterContainer>
             </Form>
     );
 }
