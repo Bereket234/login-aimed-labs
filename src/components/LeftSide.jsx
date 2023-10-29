@@ -14,7 +14,7 @@ const ImageContainer = styled.div`
   height: 300px;
   max-width: 100px;
   padding: 100px;
-  margin-bottom: 20%;
+  margin-bottom: 40%;
 
 `;
 
