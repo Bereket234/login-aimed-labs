@@ -3,12 +3,15 @@ import styled from 'styled-components';
 
 const LeftSideContainer = styled.div`
   flex: 4;
+  @media only screen and (max-width: 1300px) {
+    display: none;
+  }
 `;
 
 
 const ImageContainer = styled.div`
-  width: 400;
-  height: 400;
+  width: 300px;
+  height: 300px;
   max-width: 100px;
   padding: 100px;
 `;
